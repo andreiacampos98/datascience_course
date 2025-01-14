@@ -1,0 +1,13 @@
+Remessas Pending programadas
+    Shipment ID       Origin  ... Shipment Cost   Status
+3     SHIP0004      Houston  ...        404.25  Pending
+10    SHIP0011  Los Angeles  ...        436.07  Pending
+16    SHIP0017        Miami  ...        273.21  Pending
+17    SHIP0018     New York  ...        261.79  Pending
+21    SHIP0022        Miami  ...        374.62  Pending
+25    SHIP0026      Houston  ...        327.02  Pending
+37    SHIP0038  Los Angeles  ...        380.60  Pending
+41    SHIP0042      Chicago  ...        276.76  Pending
+48    SHIP0049     New York  ...        281.00  Pending
+
+[9 rows x 7 columns]
