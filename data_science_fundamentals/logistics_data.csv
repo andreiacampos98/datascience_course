@@ -1,0 +1,51 @@
+Shipment ID,Origin,Destination,Distance (km),Weight (kg),Shipment Cost,Status
+SHIP0001,Chicago,Dallas,1291,382.82,358.36,In Transit
+SHIP0002,Chicago,Atlanta,2025,485.8,193.77,Cancelled
+SHIP0003,Chicago,Denver,1476,717.53,240.87,In Transit
+SHIP0004,Houston,Atlanta,1066,226.84,404.25,Pending
+SHIP0005,Houston,Atlanta,498,337.23,395.83,Cancelled
+SHIP0006,Miami,San Francisco,2890,384.24,132.66,Cancelled
+SHIP0007,Miami,Dallas,1200,301.74,112.54,In Transit
+SHIP0008,Los Angeles,Dallas,2846,855.88,428.75,Delivered
+SHIP0009,New York,San Francisco,639,42.76,123.2,Delivered
+SHIP0010,Chicago,Denver,269,898.68,373.03,Delivered
+SHIP0011,Los Angeles,San Francisco,2798,735.18,436.07,Pending
+SHIP0012,Chicago,Atlanta,209,702.62,149.71,Cancelled
+SHIP0013,Chicago,Atlanta,399,92.56,92.19,Cancelled
+SHIP0014,Chicago,Seattle,603,863.19,405.53,Delivered
+SHIP0015,Chicago,Atlanta,227,93.66,157.64,Cancelled
+SHIP0016,Los Angeles,San Francisco,2275,577.34,97.76,In Transit
+SHIP0017,Miami,San Francisco,1259,9.31,273.21,Pending
+SHIP0018,New York,Seattle,2469,176.13,261.79,Pending
+SHIP0019,Miami,San Francisco,381,36.72,358.13,In Transit
+SHIP0020,Los Angeles,San Francisco,478,693.18,168.86,Delivered
+SHIP0021,Miami,Denver,680,670.36,412.43,Cancelled
+SHIP0022,Miami,San Francisco,1237,190.28,374.62,Pending
+SHIP0023,Miami,Dallas,1382,908.2,195.25,In Transit
+SHIP0024,Miami,San Francisco,120,126.6,368.38,Delivered
+SHIP0025,Miami,Atlanta,1845,999.73,289.9,Delivered
+SHIP0026,Houston,Dallas,312,663.75,327.02,Pending
+SHIP0027,Miami,Dallas,1831,226.2,251.71,Delivered
+SHIP0028,New York,Atlanta,1537,151.91,68.16,Cancelled
+SHIP0029,Houston,Atlanta,1832,324.37,111.07,Cancelled
+SHIP0030,Chicago,Seattle,412,827.47,313.89,Delivered
+SHIP0031,Miami,Seattle,2785,299.31,88.24,Cancelled
+SHIP0032,Houston,Seattle,2363,407.46,360.56,Cancelled
+SHIP0033,Chicago,San Francisco,529,42.73,463.84,Delivered
+SHIP0034,Houston,Seattle,403,837.21,418.98,Cancelled
+SHIP0035,Chicago,Dallas,1105,582.01,109.66,Cancelled
+SHIP0036,Houston,Denver,2188,638.23,148.22,Delivered
+SHIP0037,Houston,Atlanta,656,429.12,89.41,Cancelled
+SHIP0038,Los Angeles,Denver,2376,591.01,380.6,Pending
+SHIP0039,Miami,San Francisco,2098,721.1,340.04,Cancelled
+SHIP0040,New York,San Francisco,2641,545.8,245.85,Cancelled
+SHIP0041,Los Angeles,Dallas,1088,312.72,325.18,Cancelled
+SHIP0042,Chicago,San Francisco,386,793.79,276.76,Pending
+SHIP0043,Chicago,Seattle,849,360.72,152.15,In Transit
+SHIP0044,New York,San Francisco,2151,228.55,246.17,In Transit
+SHIP0045,Chicago,Dallas,2919,705.04,445.61,Cancelled
+SHIP0046,Houston,Atlanta,1508,952.12,429.37,Delivered
+SHIP0047,New York,Seattle,2443,107.84,146.69,Delivered
+SHIP0048,Houston,San Francisco,2460,212.44,98.52,Delivered
+SHIP0049,New York,Denver,2288,579.83,281,Pending
+SHIP0050,Los Angeles,San Francisco,856,200.94,274.42,Delivered
