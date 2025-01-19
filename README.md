@@ -3,9 +3,9 @@
 </p>
 
 # Data Science and Business Analytics
-In this repository, I will share with you all of my process doing the course Data Science and Business Analytics at https://weareedit.io/ .
+In this repository, I will share with you all of my process doing the course Data Science and Business Analytics at <a href='https://weareedit.io/'>EDIT</a>.
 
-The course have the following modules:
+The course has the following modules:
 1. Data Science Fundamentals
 2. Databases Fundamentals
 3. Exploratory Data Analysis
