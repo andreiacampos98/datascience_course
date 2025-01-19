@@ -1,3 +1,7 @@
+<p align="center">
+	<img src="https://img.shields.io/badge/status-finished-success?color=%2312bab9&style=flat-square"/>
+</p>
+
 # Data Science and Business Analytics
 In this repository, I will share with you all of my process doing the course Data Science and Business Analytics at https://weareedit.io/ .
 
