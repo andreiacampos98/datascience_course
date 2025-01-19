@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="https://img.shields.io/badge/status-finished-success?color=%2312bab9&style=flat-square"/>
+	<img src="https://github.com/andreiacampos98/datascience_course/blob/main/data_science_course.png"/>
 </p>
 
 # Data Science and Business Analytics
