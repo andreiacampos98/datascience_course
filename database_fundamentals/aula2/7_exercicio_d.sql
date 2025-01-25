@@ -5,7 +5,7 @@ limit 6;
 
 /*Select the 4 rows (from 3rd until 6th) from actor's table*/
 select * from actor
-	OFFSET 2;
+	OFFSET 2 ROWS;
 	LIMIT 4 
 
 

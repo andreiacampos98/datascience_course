@@ -26,8 +26,12 @@ select bi, sigla, salario * 1.2 as novo_salario from orienta
 
 select 
 	round(avg(salario),2) as mean 
-
+	COUNT(*) AS number,
+	SUM(salario) AS total,
+	MAX(salario) AS max,
+	MIN(salario) AS min
 from orienta
+
 
 select nome, sigla from socios
 join pratica on socios.bi=pratica.bi 
