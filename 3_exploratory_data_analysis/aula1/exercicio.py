@@ -1,15 +1,17 @@
-import os
+
 import pandas as pd
-script_dir = os.path.dirname(os.path.abspath(__file__))
 
 
-csv_path = os.path.join(script_dir, "Transactions.csv")
 
+df = pd.read_csv(r"/home/acer/Desktop/datascience_course/3_exploratory_data_analysis/aula1/2_Transactions.csv")
 
-df = pd.read_csv(csv_path)
 print(df.head())
 print(df.isnull())
 print(df.info())
 
-4170892941
-45545655117
+df['tran_date']=df['tran_date'].str.replace('/', '-')
+df['tran_date']=pd.to_datetime(df['tran_date'])
+df['prod_subcat_code']=df['prod_subcat_code'].astype(str)
+df['prod_cat_code']=df['prod_cat_code'].astype(str)
+print(df.info())
+print(df.head())
