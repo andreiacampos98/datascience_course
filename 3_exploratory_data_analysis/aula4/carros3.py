@@ -8,7 +8,7 @@ Carros3 = pd.read_csv("C:/Users/Andreia.CAMPOS/OneDrive - CLASQUIN SA/Desktop/ne
 #e verifica se existe um problema de escalas.
 print("Avaliar os principais indicadores das variáveis quantitativas do DataFrame Carros3")
 print(Carros3.describe())
-print("As variáveis height e price têm uma amplitude muito maior do que as outras.")
+print("As variáveis curb-weight e price têm uma amplitude muito maior do que as outras.")
 
 #Linha 3 Criar uma nova variável length_min_max através da transformação Min-Max aplicada a length.
 #Validar se os novos valores da variável são os previstos pela transformação. 
@@ -18,7 +18,7 @@ print(Carros3.describe())
 
 #Linha 4 Criar uma nova variável width_std através da estandardização da variável width.
 #Validar se os novos valores da variável são os previstos pela transformação.
-print("---------------------------------------- Estandadização-----------------------------------")
+print("---------------------------------------- Estandardização-----------------------------------")
 Carros3['width_std']=(Carros3['width'] -Carros3['width'].mean())/(Carros3['width'].std())
 print(Carros3.describe())
 
