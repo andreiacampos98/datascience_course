@@ -49,4 +49,4 @@ Carros2['price'].replace(np.nan, m_horsepower, inplace = True)
 
 #Linha 10 Exportar os dados de df num ficheiro csv com o nome Carros3
 
-carros2.to_csv('Carros3.csv', index=False)
+Carros2.to_csv('Carros3.csv', index=False)
