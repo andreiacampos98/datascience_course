@@ -1,10 +1,10 @@
-#Linha 1 Importar os dados do ficheiro Carros4 para uma DataFrame chamada Carros4 e apagar colunas criadas via transformações das variáveis originais
+# Linha 1 Importar os dados do ficheiro Carros4 para uma DataFrame chamada Carros4 e apagar colunas criadas via transformações das variáveis originais
 
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-Carros4  =  pd.read_csv("C:/Users/Andreia.CAMPOS/OneDrive - CLASQUIN SA/Desktop/new/datascience_course/3_exploratory_data_analysis/aula4/1_carros4.csv")
+Carros4 = pd.read_csv("C:/Users/Andreia.CAMPOS/OneDrive - CLASQUIN SA/Desktop/new/datascience_course/3_exploratory_data_analysis/aula4/1_carros4.csv")
 
 Carros4.drop(columns = 'length_min_max', inplace = True)
 Carros4.drop(columns = 'width_std', inplace = True)
@@ -279,8 +279,8 @@ plt.ylabel('Frequency')
 plt.show()
 
 
-#Linha 9 Calcular a correlação entre as variáveis do passo 7, original e a limitada, e a variável
-#price. Que podemos concluir?
+# Linha 9 Calcular a correlação entre as variáveis do passo 7, original e a \
+# limitada, e a variável price. Que podemos concluir?
 print("\n\n-----------------------Correlação----------------------------")
 corr_wheel_base_lim_price = Carros4['wheel-base_lim'].corr(Carros4['price'])
 corr_wheel_base_price = Carros4['wheel-base'].corr(Carros4['price'])
@@ -288,6 +288,8 @@ print(f"A correlação entre wheel_base e price é {corr_wheel_base_price}")
 print(f"A correlação entre wheel_base_lim e price é {corr_wheel_base_lim_price}")
 print("Após a correção dos outliers na variavel wheel-base, verifica-se um ligeiro decréscimo da correlação da variavel wheel-base e o price.\
       Isto mostra que os outliers não estavam distorcendo a relação entre wheel-base e price.")
+# O tratamento de outliers não é suficiente para dizer que os outliers não estão  distorcendo. 
+# Deveria dizer que o tratamento não foi o adequado para reduzir os outliers
 
 corr_horsepower_lim_price = Carros4['horsepower_lim'].corr(Carros4['price'])
 corr_horsepower_price = Carros4['horsepower'].corr(Carros4['price'])
@@ -297,12 +299,12 @@ print("Após a correção dos outliers na variavel horsepower, verifica-se um li
       Isto mostra que os outliers não estavam distorcendo a relação entre horsepower e price.")
 
 
-#Linha 10 Considerando a variável quantitativa com maior número de outliers segundo os cálculos   
-#do passo 5, criar uma nova variável com base nessa, como o sufixo “_decil”, que corresponde 
-#ao valor da variável quando agrupada em 10 decis.
+# Linha 10 Considerando a variável quantitativa com maior número de outliers segundo os cálculos   
+# do passo 5, criar uma nova variável com base nessa, como o sufixo “_decil”, que corresponde 
+# ao valor da variável quando agrupada em 10 decis.
 print("A variável engine-size tem o maior numero de outliers(5).")
 Carros4['engine-size_decil'] = pd.qcut(Carros4['engine-size'], q = 10, labels = False) + 1
-
+print(Carros4['engine-size_decil'].value_counts().sort_index())
 
 
 
@@ -342,9 +344,11 @@ corr_engine_size_price = Carros4['engine-size'].corr(Carros4['price'])
 print(f"A correlação entre engine_size e price é {corr_engine_size_price}")
 
 print("\nO décil reduz o efeito dos outliers, pois agrupa os valores em faixas e minimiza sua influência direta.\
-      \nPodemos concluir que a correlação diminuiu significativamente (de 0.87 para 0.76),\
+      \nPodemos concluir que a correlação linear diminuiu significativamente (de 0.87 para 0.76),\
       o que indica que os outliers estavam amplificando a relação entre engine-size e price.")
 
+# Se fizermos uma transformação não linear isso faz com que a correlação \
+# linear reduza bastante. Perde-se imensa explicatividade
 
 # Linha 13 Exportar os dados de Carros4 num ficheiro csv com o nome Carros5
 Carros4.to_csv('3_exploratory_data_analysis/aula4/Carros5.csv', index = False)
