@@ -5,7 +5,7 @@ from dash import dcc, html
 from dash.dependencies import Input, Output
 
 # Carregar os dados
-Incendios = pd.read_csv("C:/Users/Andreia.CAMPOS/OneDrive - CLASQUIN SA/Desktop/new/datascience_course/4_data_visualization/aula3/Incendios.csv", encoding='latin1')
+Incendios = pd.read_csv("/home/acer/Desktop/datascience_course/4_data_visualization/aula3/Incendios.csv", encoding='latin1')
 
 # Inicializar o aplicativo Dash
 app = dash.Dash(__name__)

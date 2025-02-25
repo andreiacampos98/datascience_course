@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 
-Incendios = pd.read_csv("C:/Users/Andreia.CAMPOS/OneDrive - CLASQUIN SA/Desktop/new/datascience_course/4_data_visualization/aula3/Incendios.csv", encoding='latin1')
+Incendios = pd.read_csv("/home/acer/Desktop/datascience_course/4_data_visualization/aula3/Incendios.csv", encoding='latin1')
 
 print(Incendios.info())
 
