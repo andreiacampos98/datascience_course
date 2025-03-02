@@ -4,7 +4,9 @@ from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut, GeocoderServiceError
 
 # Carregar os dados
-df = pd.read_csv("/home/anaraujo/Desktop/datascience_course/4_data_visualization/avaliacao/rain/rain_aus/weatherAUS.csv")
+df = pd.read_csv("C:/Users/Andreia.CAMPOS/OneDrive - CLASQUIN SA/Desktop/new/datascience_course/4_data_visualization/avaliacao/rain/rain_aus/weatherAUS.csv")
+
+df['Location'] = df['Location'].apply(lambda x: ''.join([' ' + c if c.isupper() and i != 0 else c for i, c in enumerate(x)]))
 
 # Criar um geolocalizador
 geolocator = Nominatim(user_agent="geoapi", timeout=10)
@@ -12,8 +14,8 @@ geolocator = Nominatim(user_agent="geoapi", timeout=10)
 # Função para buscar coordenadas com tratamento de erro e delay
 def get_coordinates(city):
     try:
-        print(f"Buscando coordenadas para: {city}...")  # Log de progresso
-        location = geolocator.geocode(f"{city}, Australia", timeout=10)  # Especificando o país
+        print(f"Buscando coordenadas para: {city}...")  
+        location = geolocator.geocode(f"{city}, Australia", timeout=10)  
         if location:
             print(f"Coordenadas encontradas: {location.latitude}, {location.longitude}")
             return pd.Series([location.latitude, location.longitude])
