@@ -4,7 +4,7 @@ import plotly.express as px
 from geopy.geocoders import Nominatim
 
 
-df = pd.read_csv("/home/acer/Desktop/datascience_course/4_data_visualization/avaliacao/rain/rain_aus/weather_update.csv")
+df = pd.read_csv("/home/anaraujo/Desktop/datascience_course/weather_update.csv")
 
 tab1, tab2, tab3 = st.tabs(["Overview", "By location", "By date"])
 
