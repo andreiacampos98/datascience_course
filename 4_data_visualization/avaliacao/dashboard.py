@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.express as px
 
 
-df = pd.read_csv("/home/acer/Desktop/datascience_course/4_data_visualization/avaliacao/rain/rain_aus/weatherAUS.csv")
+df = pd.read_csv("C:/Users/Andreia.CAMPOS/OneDrive - CLASQUIN SA/Desktop/new/datascience_course/4_data_visualization/avaliacao/rain/rain_aus/weatherAUS.csv")
 
 st.set_page_config(layout="wide")
 st.sidebar.title("Dashboard")
