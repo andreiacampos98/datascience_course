@@ -16,7 +16,7 @@ df['Year'] = df['Date'].dt.year
 df['Month'] = df['Date'].dt.month
 
 if aba == "Temperatura":
-    locations = df['Location'].unique()
+    locations = sorted(df['Location'].unique())
     selected_location = st.selectbox("Selecione a Localização:", locations, key="location_filter")
 
     anos_disponiveis = sorted(df['Year'].unique())
@@ -133,7 +133,7 @@ if aba == "Temperatura":
         st.plotly_chart(graph_abaixo_0, use_container_width=True)
 
 elif aba == "Precipitação":
-    locations = df['Location'].unique()
+    locations = sorted(df['Location'].unique())
     selected_location = st.selectbox("Selecione a Localização:", locations, key="location_filter")
 
     anos_disponiveis = sorted(df['Year'].unique())
@@ -194,10 +194,10 @@ elif aba == "Precipitação":
         st.plotly_chart(graph_prec_20, use_container_width=True)
     
 elif aba == "Overview":
-    locations = df['Location'].unique()
+    locations = sorted(df['Location'].unique())
     selected_location = st.selectbox("Selecione a Localização:", locations, key="location_filter")
 
-    year = df['Year'].unique()
+    year = df[df['Location']==selected_location]['Year'].unique()
     selected_year = st.selectbox("Selecione o ano:", year, key="year_filter")
 
     col1, col2, col3 = st.columns([1, 1, 3]) 
@@ -280,8 +280,8 @@ elif aba == "Overview":
     # Exibir a métrica de dias acima de 35°C
     col1.metric("Dias > 35°C", f"{nb_35} dias", nb_35_str, delta_color=delta_color)
 
-    # Dias com precipitação superior a 10 mm
-    df_nb_prec_10 = df[df['Rainfall'] > 35].groupby(['Location', 'Year'])['Rainfall'].count().reset_index(name="DaysAbove35")
+    # Dias com precipitação superior a 20 mm
+    df_nb_prec_10 = df[df['Rainfall'] > 20].groupby(['Location', 'Year'])['Rainfall'].count().reset_index(name="DaysAbove20")
     current_prec_10 = df_nb_prec_10[
         (df_nb_prec_10['Location'] == selected_location) & 
         (df_nb_prec_10['Year'] == selected_year)
@@ -292,8 +292,8 @@ elif aba == "Overview":
         (df_nb_prec_10['Year'] == selected_year - 1)
     ]
 
-    nb_10 = current_prec_10['DaysAbove35'].values[0] if not current_prec_10.empty else 0
-    prev_nb_10 = previous_prec_10['DaysAbove35'].values[0] if not previous_prec_10.empty else 0
+    nb_10 = current_prec_10['DaysAbove20'].values[0] if not current_prec_10.empty else 0
+    prev_nb_10 = previous_prec_10['DaysAbove20'].values[0] if not previous_prec_10.empty else 0
 
     if prev_nb_10 != 0:
         var_nb_10 = ((nb_10 - prev_nb_10) / prev_nb_10) * 100
@@ -304,7 +304,7 @@ elif aba == "Overview":
         delta_color = "off"
 
     # Exibir a métrica de dias com precipitação superior a 10 mm
-    col2.metric("Dias > 10 mm", f"{nb_10} dias", nb_10_str, delta_color=delta_color)
+    col2.metric("Dias > 20 mm", f"{nb_10} dias", nb_10_str, delta_color=delta_color)
 
     # Mapa da localização
     locations_coords = df[['Location', 'Latitude', 'Longitude']].drop_duplicates()
@@ -345,4 +345,3 @@ elif aba == "Overview":
         col3.warning("Coordenadas não encontradas para esta cidade.")
 
 
-    #col2.metric("Precipitação Média", f"{df_filtered['Rainfall'].mean():.1f} mm")
