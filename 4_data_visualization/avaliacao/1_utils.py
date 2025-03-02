@@ -4,9 +4,9 @@ from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut, GeocoderServiceError
 
 # Carregar os dados
-df = pd.read_csv("C:/Users/Andreia.CAMPOS/OneDrive - CLASQUIN SA/Desktop/new/datascience_course/4_data_visualization/avaliacao/rain/rain_aus/weatherAUS.csv")
+df = pd.read_csv("/home/anaraujo/Desktop/datascience_course/4_data_visualization/avaliacao/rain/rain_aus/weatherAUS.csv")
 
-df['Location'] = df['Location'].apply(lambda x: ''.join([' ' + c if c.isupper() and i != 0 else c for i, c in enumerate(x)]))
+
 
 # Criar um geolocalizador
 geolocator = Nominatim(user_agent="geoapi", timeout=10)
@@ -33,13 +33,6 @@ city_coords["Latitude"] = None  # Inicializa com valores nulos
 city_coords["Longitude"] = None
 
 
-# Adicionar cache para evitar consultas repetidas
-try:
-    cached_coords = pd.read_csv("city_coordinates.csv")  # Tentar carregar cache
-    city_coords = city_coords.merge(cached_coords, on="Location", how="left")
-    print("Usando coordenadas do cache.")
-except FileNotFoundError:
-    print("Nenhum cache encontrado. Buscando coordenadas...")
 
 # Preencher coordenadas que ainda não foram buscadas
 missing_coords = city_coords[city_coords["Latitude"].isna() | city_coords["Longitude"].isna()]
