@@ -1,0 +1,10 @@
+1 - Deve ser criada no Snowflake uma DB chamada Aula04
+2 - Criar os schemas nessa DB, DB_BRONZE, DB_SILVER e DB_GOLD. Esta ação materializa o conceito que abordamos na aula de criar uma arquitetura de dados baseada em medalhas.
+3 - Carregar os ficheiros para a camada bronze (DB_BRONZE) sem se preocupar com a tipologia dos dados.
+4 - Avaliar na camada bronze todos os problemas de dados envolvidos e conferir a consistência da relação dos dados.
+5 - Criar uma query capaz de fazer limpeza e estruturação adequada das tabelas e salvar na DB_SILVER, 
+assim materializamos o conceito de na camada silver termos tabelas limpas e estruturadas.
+6 - Criar uma query capaz de processar e salvar tabelas com valor analítico na camada ouro. 
+Não vamos criar modelo dimensional, apenas ter tabelas que tragam insights interessantes.
+Observações:
+Não é proposta uma forma de fazer limpeza, estruturação e nem processamento, há liberdade para criação do que for relevante para o seu ponto de vista.
