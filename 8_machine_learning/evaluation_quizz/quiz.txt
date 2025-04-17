@@ -1,0 +1,94 @@
+Machine Learning Models Quiz
+1. De que forma machine learning está relacionado com a inteligência artificial?
+    - A inteligência artificial foca-se na classificação, ao passo que machine learning foca-se em clustering de dados.
+    * Machine learning é um tipo de inteligência artificial que se baseia na aprendizagem através de dados.
+    - A inteligência artificial é um tipo de unsupervised learning.
+    - Machine learning e a inteligência artificial são a mesma coisa.
+
+2. Qual é a principal diferença entre supervised e unsupervised learning?
+    * Supervised learning requer dados rotulados, enquanto que unsupervised learning não requer.
+    - Unsupervised learning prevê um resultado, enquanto que supervised learning descobre padrões.
+    - Supervised learning é utilizado em problemas de classificação, enquanto que unsupervised learning é utilizado em problemas de regressão.
+    - Supervised learning tem uma precisão mais elevada do que unsupervised learning.
+
+3. Na série da HBO "Silicon Valley", uma das personagens cria uma aplicação móvel chamada Not Hot Dog. A aplicação requer que o utilizador tire uma fotografia de um alimento com o seu dispositivo móvel. Depois, a aplicação diz se a comida é um cachorro-quente. Para criar a aplicação, o criador do software carregou centenas de milhares de fotografias de cachorros quentes. Como descreveria este tipo de machine learning?
+    * Supervised learning
+    - Unsupervised learning
+    - Reinforcement learning
+
+4. Das diferentes metologias a usar num projeto de Data Science, qual aquela que enfatiza a etapa de qualidade e exploração dos dados? 
+    - SEMMA
+    * OSEMN
+    - CRISP-DM
+    - TDSP
+
+5.Qual é o objetivo do escalar (feature scaling) as variáveis do nosso conjunto de dados? Seleciona todas as opções verdadeiras.
+    - Remover outliers.
+    * Padronizar o intervalo de valores possíveis para cada uma das variáveis.
+    * Para permitir que os algoritmos baseados em métricas de distância, tais como o k-Nearest Neighbors ou o K-Means, tenham um melhor desempenho.
+    * Para garantir que as variáveis com intervalos de valores maiores não dominam as variáveis com intervalos mais pequenos em algoritmos como o k-Nearest Neighbors ou o K-Means.
+
+6. Qual dos seguintes não é um algoritmo de supervised learning?
+    * K-Means
+    - Decision Tree
+    - Regressão Logística
+    - K-Nearest Neighbors (KNN)
+
+7.Que afirmação sobre o K-means é verdadeira?
+    - O K-means é frequentemente utilizado no contexto de supervised learning.
+    - O número de clusters é sempre selecionado aleatoriamente.
+    * No K-means, os centróides iniciais são por vezes selecionados aleatoriamente.
+    - Para maior precisão, os centróides devem situar-se fora dos clusters.
+
+8.Qual o tipo de modelo a que o K-Nearest Neighbors (KNN) corresponde?
+    - Modelo Paramétrico
+    * Modelo Não-Paramétrico
+    - Modelo Fixo
+
+9.No contexto de supervised learning, qual é uma das razões para não utilizar os mesmos dados para o conjunto de treino e para o conjunto de teste?
+    - Para evitar underfitting.
+    - Para que o treino do modelo demore menos tempo.
+    - Para evitar alimentar o modelo com dados desnecessários.
+    * Para evitar overfitting.
+
+10.Com que objetivos em mente pode o método K-Fold Cross Validation ser usado no processo de treino de um modelo de Machine Learning? Seleciona todas as opções verdadeiras.
+    - Treinar diferentes modelos em simultâneo.
+    * Treinar e avaliar o modelo no maior número de dados possíveis.
+    * Avaliar o desempenho do modelo em dados não vistos no treino, ajudando a reduzir o overfitting.
+    - Melhorar a eficiência computacional durante a fase de treino.
+
+11.Qual é a diferença entre as métricas de avaliação precision e recall?
+    - As duas métricas medem a mesma coisa.
+    * A precision penaliza os falsos positivos, enquanto que a recall penaliza os falsos negativos.
+    - A precision penaliza os falsos negativos, enquanto que a recall penaliza os falsos positivos.
+    - A precision mede o número de classificações incorrectas, enquanto a recall mede a eficiência do modelo.
+
+12.Qual é o objetivo dos algoritmos Ball Tree e KD-Tree no modelo k-Nearest Neighbors (k-NN)? Seleciona todas as opções verdadeiras.
+    * Reduzir a complexidade da procura dos vizinhos mais próximos.
+    - Melhorar a precisão do k-NN através da eliminação de variáveis irrelevantes.
+    * Otimizar a utilização da memória durante o processo da procura dos vizinhos mais próximos.
+    - Eliminar a necessidade de cálculos de distância entre observações.
+
+13.Qual é a principal diferença entre a regressão logística e a regressão linear?
+    - A regressão logística utiliza uma linha reta para modelar relações entre as variáveis independentes e a variável alvo, enquanto que a regressão linear utiliza uma curva.
+    - A regressão logística produz sempre previsões mais exactas do que a regressão linear.
+    - A regressão logística requer mais variáveis do que a regressão linear para ser treinada de forma eficaz.
+    * A regressão logística é utilizada para prever variáveis binárias ou categóricas, enquanto que a regressão linear é utilizada para para prever variáveis contínuas.
+
+14.Qual das seguintes opções é um exemplo de um método wrapper no processo de feature selection?
+    - Teste Chi-squared.
+    * Recursive Feature Elimination (RFE).
+    - Feature importance das árvores de decisão.
+    - Matriz de correlações.
+
+15.No contexto das árvores de decisão, qual das seguintes afirmações não é verdadeira sobre a métrica de ganho de informação (Information Gain)?
+    - É utilizada para determinar que variável nos dá o máximo de informação relativamente à discrimanção das classes da variável a prever.
+    - Baseia-se no conceito de grau de desordem ou impureza, medido pelo Gini ou Entropia.
+    * É sempre utilizado em variáveis contínuas, uma vez que funciona melhor em variáveis numéricas.
+    - Ajuda na construção de árvores de decisão, selecionando a melhor variável para dividir os dados.
+
+16.Quais dos seguintes métodos podem ser utilizados para evitar overfitting nas árvores de decisão? Seleciona todas as opções verdadeiras.
+    - Aumentar a profundidade máxima da árvore (max_depth).
+    - Utilizar o máximo número de variáveis que conseguirmos para treinar o modelo.
+    * Limitar o número mínimo de amostras por leaf node (min_samples).
+    * Limitar a profundidade máxima da árvore (max_depth).
