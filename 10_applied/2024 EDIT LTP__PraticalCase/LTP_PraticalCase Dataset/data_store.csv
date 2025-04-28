@@ -1,0 +1,343 @@
+idstore,type,selling_square_ft,district
+1,Large,4762.0,Évora
+2,Large,12358.0,Bragança
+3,Large,16159.0,Lisboa
+4,Large,17903.0,Porto
+5,Large,16179.0,Coimbra
+6,Large,10057.0,Évora
+7,Large,13618.0,Guarda
+8,Large,15133.0,Évora
+9,Large,3673.0,Porto
+10,Large,16503.0,Vila Real
+11,Large,15795.0,Faro
+12,Large,12999.0,Porto
+13,Large,11925.0,Faro
+14,Large,21275.0,Beja
+15,Large,25258.0,Leiria
+16,Large,14893.0,Évora
+17,Large,16732.0,Viana do Castelo
+18,Large,12373.0,Leiria
+19,Large,14360.0,Porto
+20,Large,13435.0,Bragança
+21,Large,17657.0,Guarda
+22,Large,11337.0,Porto
+23,Large,8671.0,Guarda
+24,Large,21463.0,Vila Real
+25,Large,14855.0,Porto
+26,Large,19000.0,Bragança
+27,Large,21060.0,Castelo Branco
+28,Large,15263.0,Porto
+29,Large,18359.0,Vila Real
+30,Large,10439.0,Coimbra
+31,Large,11369.0,Coimbra
+32,Large,8095.0,Lisboa
+33,Large,21431.0,Viana do Castelo
+34,Large,18100.0,Santarém
+35,Medium,2856.0,Setúbal
+36,Medium,5811.0,Bragança
+37,Large,7039.0,Lisboa
+38,Medium,5462.0,Coimbra
+39,Medium,5376.0,Portalegre
+40,Medium,3026.0,Castelo Branco
+41,Large,10666.0,Aveiro
+42,Medium,10790.0,Portalegre
+43,Large,10586.0,Portalegre
+44,Medium,6223.0,Bragança
+45,Medium,,Setúbal
+46,Medium,9741.0,Vila Real
+47,Medium,6368.0,Setúbal
+48,Medium,7997.0,Bragança
+49,Medium,1677.0,Portalegre
+50,Medium,833.0,Lisboa
+51,Medium,4086.0,Leiria
+52,Medium,8883.0,Braga
+53,Medium,7764.0,Beja
+54,Medium,10961.0,Porto
+55,Medium,9047.0,Castelo Branco
+56,Medium,5563.0,Braga
+57,Medium,,Braga
+58,Medium,8306.0,Beja
+59,Medium,6540.0,Guarda
+60,Medium,4110.0,Braga
+61,Medium,7005.0,Lisboa
+62,Large,15519.0,Faro
+63,Medium,1463.0,Braga
+64,Medium,7879.0,Santarém
+65,Medium,5707.0,Faro
+66,Medium,6935.0,Porto
+67,Medium,10084.0,Castelo Branco
+68,Medium,5901.0,Évora
+69,Medium,10069.0,Vila Real
+70,Medium,4472.0,Castelo Branco
+71,Medium,10327.0,Viana do Castelo
+72,Medium,429.0,Vila Real
+73,Medium,7846.0,Setúbal
+74,Medium,7016.0,Braga
+75,Medium,8225.0,Porto
+76,Medium,7630.0,Castelo Branco
+77,Medium,6640.0,Guarda
+78,Medium,4600.0,Braga
+79,Medium,14210.0,Viana do Castelo
+80,Medium,8329.0,Guarda
+81,Medium,1108.0,Évora
+82,Medium,8258.0,Porto
+83,Medium,4330.0,Braga
+84,Medium,5023.0,Évora
+85,Medium,6133.0,Guarda
+86,Medium,5758.0,Lisboa
+87,Medium,8009.0,Setúbal
+88,Medium,4854.0,Lisboa
+89,Medium,5829.0,Lisboa
+90,Medium,6975.0,Vila Real
+91,Medium,8952.0,Aveiro
+92,Medium,7230.0,Beja
+93,Medium,7304.0,Faro
+94,Medium,8045.0,Leiria
+95,Medium,338.0,Porto
+96,Medium,9523.0,Santarém
+97,Medium,4982.0,Viseu
+98,Medium,3344.0,Faro
+99,Medium,8415.0,Coimbra
+100,Medium,10983.0,Faro
+101,Medium,5223.0,Santarém
+102,Medium,3380.0,Faro
+103,Medium,7011.0,Lisboa
+104,Medium,5734.0,Portalegre
+105,Medium,2719.0,Braga
+106,Medium,8108.0,Leiria
+107,Medium,5606.0,Évora
+108,Medium,6490.0,Faro
+109,Medium,6273.0,Viana do Castelo
+110,Medium,5013.0,Lisboa
+111,Medium,9026.0,Portalegre
+112,Medium,8192.0,Viseu
+113,Medium,11472.0,Porto
+114,Medium,1500.0,Vila Real
+115,Medium,3735.0,Lisboa
+116,Medium,4639.0,Coimbra
+117,Medium,4168.0,Aveiro
+118,Medium,6072.0,Vila Real
+119,Medium,7949.0,Beja
+120,Medium,4307.0,Portalegre
+121,Medium,3119.0,Setúbal
+122,Medium,4489.0,Santarém
+123,Medium,3032.0,Viana do Castelo
+124,Medium,8558.0,Santarém
+125,Medium,4641.0,Leiria
+126,Medium,3648.0,Braga
+127,Medium,6748.0,Faro
+128,Medium,5130.0,Aveiro
+129,Medium,8365.0,Braga
+130,Medium,7460.0,Porto
+131,Medium,4670.0,Lisboa
+132,Medium,6711.0,Porto
+133,Medium,6507.0,Guarda
+134,Small,1498.0,Portalegre
+135,Medium,9834.0,Aveiro
+136,Small,412.0,Coimbra
+137,Small,,Beja
+138,Medium,8945.0,Braga
+139,Small,1061.0,Portalegre
+140,Medium,9692.0,Viana do Castelo
+141,Small,1705.0,Viseu
+142,Small,,Évora
+143,Medium,7405.0,Castelo Branco
+144,Small,3072.0,Aveiro
+145,Small,1352.0,Lisboa
+146,Small,1307.0,Castelo Branco
+147,Small,838.0,Viseu
+148,Small,,Aveiro
+149,Medium,,Évora
+150,Small,2469.0,Lisboa
+151,Small,,Beja
+152,Small,686.0,Évora
+153,Small,1601.0,Guarda
+154,Small,,Lisboa
+155,Small,521.0,Castelo Branco
+156,Small,,Vila Real
+157,Small,1599.0,Bragança
+158,Small,889.0,Lisboa
+159,Small,1268.0,Porto
+160,Small,1402.0,Lisboa
+161,Medium,10222.0,Coimbra
+162,Small,2021.0,Beja
+163,Medium,5571.0,Porto
+164,Large,13797.0,Aveiro
+165,Large,10216.0,Porto
+166,Medium,4711.0,Lisboa
+167,Medium,6812.0,Leiria
+168,Medium,927.0,Aveiro
+169,Medium,9196.0,Santarém
+170,Medium,6521.0,Setúbal
+171,Small,,Évora
+172,Medium,5461.0,Viana do Castelo
+173,Medium,6964.0,Bragança
+174,Small,93.0,Coimbra
+175,Medium,5576.0,Aveiro
+176,Small,,Guarda
+177,Small,842.0,Porto
+178,Medium,3186.0,Setúbal
+179,Small,3827.0,Braga
+180,Small,1698.0,Faro
+181,Small,486.0,Bragança
+182,Small,703.0,Viseu
+183,Small,1207.0,Beja
+184,Small,691.0,Viana do Castelo
+185,Small,136.0,Setúbal
+186,Small,1186.0,Vila Real
+187,Small,702.0,Portalegre
+188,Small,185.0,Vila Real
+189,Small,1798.0,Coimbra
+190,Small,,Castelo Branco
+191,Small,793.0,Lisboa
+192,Small,1031.0,Guarda
+193,Medium,5048.0,Viseu
+194,0,,Vila Real
+195,Large,16346.0,Coimbra
+196,Small,373.0,Braga
+197,Small,660.0,Coimbra
+198,Small,1826.0,Viseu
+199,Medium,12009.0,Castelo Branco
+200,Small,1041.0,Évora
+201,Medium,5817.0,Castelo Branco
+202,Medium,4078.0,Porto
+203,Medium,9370.0,Faro
+204,Medium,524.0,Lisboa
+205,Medium,7255.0,Setúbal
+206,Medium,10997.0,Aveiro
+207,Medium,6410.0,Coimbra
+208,Medium,6446.0,Coimbra
+209,Medium,7865.0,Beja
+210,Medium,8671.0,Viana do Castelo
+211,Small,1221.0,Lisboa
+212,Small,1282.0,Santarém
+213,Small,1857.0,Bragança
+214,Small,1329.0,Viana do Castelo
+215,Large,13480.0,Setúbal
+216,Small,,Setúbal
+217,Small,115.0,Lisboa
+218,Small,366.0,Braga
+219,Small,1218.0,Viseu
+220,Small,250.0,Coimbra
+221,Small,,Bragança
+222,Small,358.0,Braga
+223,Small,1155.0,Setúbal
+224,Medium,9086.0,Portalegre
+225,Medium,7576.0,Faro
+226,Medium,5286.0,Beja
+227,Small,3849.0,Braga
+228,Small,286.0,Setúbal
+229,Small,,Lisboa
+230,Small,2617.0,Setúbal
+231,Small,2835.0,Setúbal
+232,Small,862.0,Beja
+233,Small,1250.0,Guarda
+234,Small,1560.0,Beja
+235,Medium,11114.0,Porto
+236,Small,,Vila Real
+237,Small,619.0,Santarém
+238,Medium,4666.0,Guarda
+239,Small,1849.0,Beja
+240,Small,676.0,Guarda
+241,Small,571.0,Viana do Castelo
+242,Small,2160.0,Porto
+243,Small,1190.0,Guarda
+244,Small,,Vila Real
+245,Small,546.0,Aveiro
+246,Small,835.0,Aveiro
+247,Small,1702.0,Viseu
+248,Small,,Santarém
+249,Small,822.0,Lisboa
+250,Small,2109.0,Portalegre
+251,Small,,Viseu
+252,Small,523.0,Viseu
+253,Small,113.0,Bragança
+254,Small,947.0,Castelo Branco
+255,Small,,Aveiro
+256,Medium,7097.0,Lisboa
+257,Small,905.0,Guarda
+258,Small,413.0,Lisboa
+259,Small,1425.0,Coimbra
+260,Small,2604.0,Portalegre
+261,Small,1899.0,Lisboa
+262,Small,3043.0,Portalegre
+263,Small,711.0,Viseu
+264,Small,,Portalegre
+265,Small,2536.0,Guarda
+266,Small,316.0,Vila Real
+267,Small,768.0,Braga
+268,Small,808.0,Viseu
+269,Small,919.0,Coimbra
+270,Small,178.0,Braga
+271,Small,1853.0,Viana do Castelo
+272,Small,321.0,Aveiro
+273,Small,940.0,Viseu
+274,Small,1224.0,Coimbra
+275,Small,1426.0,Porto
+276,Small,1291.0,Viana do Castelo
+277,Small,1047.0,Porto
+278,Small,499.0,Castelo Branco
+279,Small,601.0,Lisboa
+280,Small,1868.0,Viseu
+281,Small,455.0,Porto
+282,Small,1804.0,Santarém
+283,Small,1679.0,Braga
+284,Small,46.0,Aveiro
+285,Small,,Aveiro
+286,Small,1628.0,Portalegre
+287,Small,1119.0,Aveiro
+288,Small,286.0,Aveiro
+289,Small,342.0,Viana do Castelo
+290,Small,1906.0,Coimbra
+291,Small,1194.0,Braga
+292,Medium,11845.0,Coimbra
+293,Small,411.0,Leiria
+294,Small,1255.0,Faro
+295,Small,10.0,Viseu
+296,Small,379.0,Coimbra
+297,Small,930.0,Beja
+298,Medium,6896.0,Aveiro
+299,Small,3314.0,Santarém
+300,Medium,5795.0,Beja
+301,Small,1697.0,Viana do Castelo
+302,Small,2159.0,Leiria
+303,Small,1996.0,Évora
+304,Small,1559.0,Porto
+305,Medium,6500.0,Setúbal
+306,Small,1494.0,Coimbra
+307,Small,127.0,Bragança
+308,Small,855.0,Porto
+309,Small,2028.0,Bragança
+310,Small,1608.0,Évora
+311,Small,1616.0,Santarém
+312,Small,784.0,Faro
+313,Small,,Santarém
+314,Small,,Beja
+315,Small,1255.0,Braga
+316,Small,1601.0,Beja
+317,Small,1833.0,Guarda
+318,Small,1884.0,Santarém
+319,Small,81.0,Lisboa
+320,Small,1924.0,Setúbal
+321,Small,,Coimbra
+322,Small,1344.0,Faro
+323,Small,705.0,Leiria
+324,Small,,Viseu
+325,Small,,Leiria
+326,Small,2428.0,Coimbra
+327,Small,172.0,Faro
+328,Small,115.0,Guarda
+329,Small,1004.0,Lisboa
+330,Small,3164.0,Leiria
+331,Small,215.0,Guarda
+332,Small,2218.0,Guarda
+333,Small,,Santarém
+334,Small,2226.0,Leiria
+335,Small,2062.0,Évora
+336,Small,936.0,Castelo Branco
+337,Small,,Bragança
+338,Small,1935.0,Leiria
+339,Small,2680.0,Portalegre
+340,Small,866.0,Coimbra
+341,Small,,Castelo Branco
+342,Small,403.0,Beja
